@@ -1,0 +1,78 @@
+.link{
+	margin-left: 20px;
+	font-size: 16px;
+}
+.link:hover{
+	text-decoration: none;
+	color: #c92027;
+}
+.clearfix:after,
+.clearfix:before{
+	height: 0;
+	content: "";
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
+/*顶部导航开始*/
+#nav-blog{
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	background: rgba(248,248,248,0.7);
+}
+#nav-blog .active a{
+	color: #c92027;
+}
+#nav-blog .link:hover{
+	color: #c92027;
+}
+/*顶部导航结束*/
+
+/*内容区域开始*/
+
+/*轮播图开始*/
+.main{
+	width: 100%;
+	position: absolute;
+	top: 80px;
+}
+.main .item{
+	height: 420px;
+}
+.main img{
+	width: 100%;
+	height: 100%;
+}
+.main .ad{
+	width: 100%;
+	height: 200px;
+}
+.main .ad-top{
+	background: red;
+}
+.main .ad-bottom{
+	margin-top: 20px;
+	background: blue;
+}
+/*轮播图结束*/
+
+/*文章开始*/
+#main-content{
+	margin-top: 20px;
+}
+#main-content .panel-heading{
+	padding-left: 0px;
+}
+#main-content .panel-title{
+	border-left: 2px solid #c92027;
+}
+#main-content .panel-title .active{
+	color: #c92027;
+}
+#main-content .panel-footer span{
+	margin-right: 15px;
+}
+/*文章结束*/
+
+/*内容区域开始*/
